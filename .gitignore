@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+mlflow.db
+mlruns/
+data/raw/
+*.ipynb_checkpoints
+*.ipynb_checkpoints/
+data/raw/preprocessed/
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Large generated dataset and model files
+models/random_forest.pkl
+data/processed/final_books_dataset.csv

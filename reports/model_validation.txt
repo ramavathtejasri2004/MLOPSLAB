@@ -1,0 +1,24 @@
+BOOKS DATASET ML MODEL VALIDATION REPORT
+============================================================
+
+Model Name       : BooksDatasetClassifier
+Model Version    : 1
+Run ID           : f7a5b644e4b74f8fb13af18b8aac18ba
+Model Status     : READY
+Dataset Shape    : (226007, 6)
+Model URI        : models:/BooksDatasetClassifier/1
+
+Features:
+- Book-Title
+- Book-Author
+- Year-Of-Publication
+- Publisher
+
+Sample Predictions:
+0
+0
+1
+1
+1
+
+Validation Result: PASSED
