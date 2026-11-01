@@ -1,0 +1,10 @@
+services:
+  books-api:
+    build:
+      context: .
+      dockerfile: deployment/Dockerfile
+    image: books-prediction-api:1.0
+    container_name: books-api-container
+    ports:
+      - "8001:8000"
+    restart: unless-stopped
