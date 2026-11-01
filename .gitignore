@@ -2,16 +2,30 @@
 __pycache__/
 *.pyc
 *.pyo
+
+# MLflow local database
 mlflow.db
 mlruns/
+
+# Datasets
 data/raw/
-*.ipynb_checkpoints
-*.ipynb_checkpoints/
-data/raw/preprocessed/
+data/processed/
+*.csv
+
+# Trained models
+models/
+*.pkl
+
+# Generated artifacts
+artifacts/
+logs/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# OS files
 .DS_Store
 Thumbs.db
-.vscode/
 
-# Large generated dataset and model files
-models/random_forest.pkl
-data/processed/final_books_dataset.csv
+# IDE settings
+.vscode/
